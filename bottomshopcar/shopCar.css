@@ -1,0 +1,113 @@
+
+.dibu{
+    width: 100%;
+    height: 2.46rem;
+    background: brown;
+
+}
+.dibu .youhui{
+    width: 100%;
+    height: 0.25rem;
+    background: #d0f525;
+    font-size:0.25rem;
+    text-align: center;
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}
+.dibu .yixuanshangpin{
+    width: 100%;
+    height: 0.42rem;
+    background: #b5b5b5;
+    display:flex;
+    justify-content: space-between;
+    font-size: 0.35rem;
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}
+.dibu .yixuanshangpin i{
+    font-size: 0.35rem;
+}
+.dibu .kekoukele{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 0.83rem;
+    background: #faf8f8;
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}
+.dibu .lijizhifu{
+    width: 100%;
+    height: 0.98rem;
+    background: black;
+    position: relative;
+}
+.dibu .jiajian{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.dibu .jiajian img{
+    width: 0.21rem;
+    height: 0.21rem;
+    display:flex;
+    margin-right: 0.1rem;
+}
+.dibu .jiajian span{
+    font-size: 0.22rem;
+    margin-right: 0.1rem;
+}
+.kekoukele span{
+    display: flex;
+    font-size: 0.22rem;
+    align-items: center;
+}
+.dibu .lijizhifu .leftinfo .gouwuche{
+    width: 1.02rem;
+    height: 1.02rem;
+    border-radius: 50%;
+    background:red;
+    margin-left: 0.5rem;
+    float: left;
+    position: absolute;
+    top: -0.2rem;
+    /*position: relative;*/
+}
+.dibu .lijizhifu .leftinfo .gouwuche .xiaofen{
+    width: 0.25rem;
+    height: 0.25rem;
+    background: #f29b76;
+    border-radius: 50%;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.25rem;
+    position: absolute;
+    left: 0.8rem;
+}
+.dibu .lijizhifu .leftinfo .gouwuche i{
+    font-size: 0.6rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.25rem;
+}
+.dibu .lijizhifu .leftinfo span{
+    font-size: 0.21rem;
+    color: white;
+    display: block;
+    float: left;
+    line-height:0.98rem;
+    margin-left: 1.8rem;
+}
+.dibu .lijizhifu .rightbox{
+    width: 2.04rem;
+    height: 100%;
+    background: #d2d2d2;
+    float: right;
+    font-size: 0.23rem;
+    text-align: center;
+    line-height: 0.98rem;
+}

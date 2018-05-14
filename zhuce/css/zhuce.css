@@ -1,0 +1,128 @@
+body{
+    width: 100%;
+    height: auto;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+img {
+    width: 3.4rem;
+    height: 3.4rem;
+    display: block;
+    margin-top: 1.48rem;
+    margin-left: 1.79rem;
+}
+span{
+    display: block;
+    width:100%;
+    height: 0.3rem;
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top: 0.28rem;
+    color: #a9a7a8;
+}
+.box{
+    width: 100%;
+    height: 0.38rem;
+    /*background:aqua;*/
+    margin-top: 0.33rem;
+    font-size: 0.33rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0.54rem;
+}
+.box .left{
+    width: 0.82rem;
+    height: 0.38rem;
+    /*background: red;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0.2rem;
+}
+.box .left .dot{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    background: blue;
+}
+.box .right{
+    width: 0.82rem;
+    height: 0.38rem;
+    /*background: red;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0.2rem;
+}
+.box .right .dot{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    background: blue;
+}
+.zhucekuang{
+    width:5.47rem;
+    height: 3.2rem;
+    background: #e7e4e4;
+    border-radius: 0.2rem;
+    margin: 0 auto;
+    padding-top: 0.64rem;
+    padding-right: 0.44rem;
+    padding-left: 0.44rem;
+    box-sizing: border-box;
+    box-shadow: 0 0.15rem 0.3rem rgba(0,0,0,0.3);
+}
+.zhucekuang .shuru{
+    width:100% ;
+    height: 0.6rem;
+    /*background: blueviolet;*/
+    border-bottom: 0.02rem solid #aaa8a8;
+    font-size: 0.15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shuru input{
+    width: 2rem;
+    display: block;
+    margin: 0;
+    border: none;
+    background: #e7e4e4;
+}
+.zhucekuang .shuru img{
+    display: block;
+    width:0.25rem;
+    height: 0.25rem;
+    margin: 0;
+}
+.zhucekuang .shuruq img {
+    width: 0.5rem;
+    height: 0.2rem;
+    box-shadow: 0 0.05rem 0.2rem rgba(118,239,148,0.7);
+}
+.anniu img{
+    width:1.51rem;
+    height: 0.41rem;
+    margin: 0 auto;
+    margin-top: 0.55rem;
+    box-shadow: 0 0.1rem 0.3rem rgba(246,179,66,0.7);
+}
+span.bottom{
+    display: flex;
+    height: 0.2rem;
+    font-size: 0.2rem;
+    margin-top: 1.42rem;
+    margin-bottom: 1.68rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom .hengxian{
+    width: 1.5rem;
+    height: 0.04rem;
+    background: #e7e4e4;
+}

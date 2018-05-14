@@ -1,0 +1,288 @@
+
+.top{
+    width: 100%;
+    height: 1.26rem;
+    background: blue;
+    padding: 0.12rem;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.top .topleft{
+    width: 1.5rem;
+    height: 0.36rem;
+    background: blue;
+    float: left;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.36rem;
+    color: white;
+}
+.top .topright{
+    width: 4.4rem;
+    height: 0.36rem;
+    background: #ffffff;
+    float: right;
+    border-radius:0.1rem;
+}
+.top .topright i{
+    display: block;
+    float:left;
+
+    z-index: 99;
+}
+.top .topright input{
+    display: block;
+    float: right;
+    width: 3.5rem;
+}
+.top .topright .sousuokuang{
+    width: 4rem;
+    height: 0.36rem;
+    float: right;
+    font-size: 14px;
+    line-height: 0.36rem;
+    border-radius: 0.1rem;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding-left: 0.12rem;
+    padding-right: 0.12rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.banner .box{
+    width: 20%;
+    height: 1.16rem;
+    background: #ffffff;
+    float: left;
+    font-size: 14px;
+    margin-top: 0.1rem;
+}
+.banner .box a{
+    display: block;
+    font-size: 14px;
+    margin-top:0.78rem ;
+    text-align: center;
+}
+.banner .box:nth-child(1){
+    background-image: url("../img/2018-04-17_215327.png");
+    background-size:0.78rem 0.78rem;
+    background-repeat:no-repeat ;
+    background-position:0.3rem 0;
+}
+.banner .box:nth-child(2){
+    background-image:url("../img/快餐.png");
+    background-size:0.78rem ;
+    background-repeat:no-repeat ;
+    background-position:0.3rem 0;
+}
+.banner .box:nth-child(3){
+    background-image: url("../img/饮品.png");
+    background-size:0.78rem ;
+    background-repeat:no-repeat ;
+    background-position:0.3rem 0;
+    }
+.banner .box:nth-child(4){
+    background-image: url("../img/果蔬.png");
+    background-size:0.78rem ;
+    background-repeat:no-repeat ;
+    background-position:0.3rem 0;
+}
+.banner .box:nth-child(5){
+    background-image: url("../img/便利店.png");
+    background-size:0.78rem ;
+    background-repeat:no-repeat ;
+    background-position:0.3rem 0;
+}
+.banner .box:nth-child(6){
+    background-image: url("../img/午餐.png");
+    background-size:0.78rem ;
+    background-repeat:no-repeat ;
+    background-position:0.3rem 0;
+}
+.banner .box:nth-child(7){
+    background-image: url("../img/鲜花.png");
+    background-size:0.78rem ;
+    background-repeat:no-repeat ;
+    background-position:0.3rem 0;
+}
+.banner .box:nth-child(8){
+    background-image: url("../img/医药.png");
+    background-size:0.78rem ;
+    background-repeat:no-repeat ;
+    background-position:0.3rem 0;
+}
+.banner .box:nth-child(9){
+    background-image: url("../img/及时达.png");
+    background-size:0.78rem ;
+    background-repeat:no-repeat ;
+    background-position:0.3rem 0;
+}
+.banner .box:nth-child(10){
+    background-image: url("../img/火热推荐.png");
+    background-size:0.78rem ;
+    background-repeat:no-repeat ;
+    background-position:0.3rem 0;
+}
+.banner .bottom{
+    width: 100%;
+    height: 0.5rem;
+    /*background: blueviolet;*/
+    margin-top: 2.7rem;
+    /*padding-left:0.5rem ;*/
+    /*float: left;*/
+    /*margin:2rem auto 0 ;*/
+    padding-left: 3.3rem;
+    box-sizing: border-box;
+}
+.banner .bottom .bottomDot{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background: gray;
+    float: left;
+    margin-right: 0.2rem;
+}
+.banner .bottom .bottomDot:nth-child(2){
+    background: white;
+    border: 0.05rem solid gray;
+    box-sizing: border-box;
+}
+hr{
+    width:100%;
+    height: 0.06rem;
+    background: #a0a0a0;
+}
+.neirong{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+.neirong .topqq{
+    width: 100%;
+    height: 0.68rem;
+    /*background: aqua;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.neirong .topqq .left{
+    width: 0.9rem;
+    height: 0.06rem;
+    background: gray;
+    margin-right: 0.2rem;
+}
+.neirong .topqq .mid{
+    font-size: 0.3rem;
+}
+.neirong .topqq .right{
+    width: 0.9rem;
+    height: 0.06rem;
+    background: gray;
+    margin-left: 0.2rem;
+}
+.shangjia{
+    width: 100%;
+    height: auto;
+    padding-right: 0.12rem;
+    box-sizing: border-box;
+    margin-bottom: 1.2rem;
+}
+.shangjia .son{
+    width: 100%;
+    height: 0.94rem;
+    /*background: green;*/
+    margin-bottom: 0.32rem;
+    display: flex;
+    padding-left:0.12rem ;
+    padding-right: 0.12rem;
+
+}
+.shangjia .son a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    float: right;
+    padding-right: 0.12rem;
+    flex-direction: column;
+}
+.shangjia .son img{
+    display: flex;
+    width: 0.94rem;
+    height: 0.94rem;
+}
+.shangjia .son .imgs{
+    width: 0.94rem;
+    height: 0.94rem;
+    display: flex;
+}
+.shangjia .son .right{
+    display: flex;
+    flex-grow: 1;
+    /*background: blueviolet;*/
+    height: 0.94rem;
+    flex-direction: column;
+    padding-left: 0.12rem;
+    padding-right: 0.12rem;
+}
+.shangjia .son .right .shang{
+    display: flex;
+    height: 0.32rem;
+    width: 100%;
+    /*background: red;*/
+    margin-bottom: 0.18rem;
+    font-size: 0.23rem;
+    justify-content: space-between;
+}
+.shangjia .son .right .zhong{
+    height: 0.18rem;
+    width: 100%;
+    /*background: aqua;*/
+    margin-bottom: 0.22rem;
+    font-size: 0.02rem;
+}
+.shangjia .son .right .zhong span{
+    height: 0.18rem;
+    display: block;
+    font-size: 0.15rem;
+}
+.shangjia .son .right .xia{
+    display: flex;
+    height: 0.16rem;
+    width: 100%;
+    /*background: gray;*/
+    justify-content: space-between;
+    align-items:center;
+}
+.shangjia .son .right .xia span{
+    font-size: 0.15rem;
+    display: block;
+}
+.footer{
+    width: 100%;
+    height: 1rem;
+    /*background: #a0a0a0;*/
+    display: flex;
+    font-size: 0.2rem;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 0.02rem solid gray;
+    border-bottom:0.02rem solid gray ;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: white;
+}
+.footer span{
+    display: flex;
+    flex-direction: column;
+}
+.footer span i{
+    font-size: 0.44rem;
+}
+.footer az{
+    color: blue;
+}

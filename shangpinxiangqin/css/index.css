@@ -1,0 +1,263 @@
+.top{
+    width: 100%;
+    height: 4.35rem;
+    background: blueviolet;
+    background-image: url("../img/可乐.png");
+    background-size:cover;
+    background-position: center;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    padding-top: 0.4rem;
+}
+.top .fenxiang{
+    width: 100%;
+    height: 0.56rem;
+    /*background: red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .fenxiang i{
+    font-size: 0.56rem;
+    color: white;
+}
+.top .fenxiang .right{
+    /*background: aqua;*/
+    width: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.top .fenxiang .right i{
+    font-size: 0.6rem;
+    color: white;
+}
+.jieshao{
+    width: 100%;
+    height: 2.36rem;
+    /*background: red;*/
+    padding: 0 0.24rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-bottom: 0.02rem solid gainsboro;
+}
+.jieshao span h3{
+    font-size: 0.4rem;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+.jieshao span{
+    font-size: 0.22rem;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+.jieshao span.quxiao{
+    margin: 0;
+    height: 0.42rem;
+    display: flex;
+    flex-direction: row;justify-content: space-between;
+}
+.jieshao span.quxiao span{
+    color:#d10d0d;
+}
+.jieshao span.quxiao img{
+    width: 1.6rem;
+    height: 0.4rem;
+    display: block;
+}
+.gukepingjia{
+    width: 100%;
+    height:auto;
+    /*background: aqua;*/
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+.gukepingjia span{
+    font-size: 0.29rem;
+    display: block;
+    height: 0.29rem;
+    /*margin-top: 0.1rem;*/
+    /*margin-top: 0.2rem;*/
+}
+.gukepingjia .pingjia{
+    height: 1.52rem;
+    width: 100%;
+    /*background: blue;*/
+    margin-top: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    border-bottom:0.02rem solid gainsboro;
+}
+.gukepingjia .pingjia img{
+    width: 0.92rem;
+    height: 0.92rem;
+    display: block;
+    margin-top: 0.32rem;
+}
+.gukepingjia .pingjia .neirong{
+    flex-grow: 1;
+    /*background: gray;*/
+    padding-left: 0.2rem;
+}
+.gukepingjia .pingjia .neirong .hang:nth-child(1){
+    width: 100%;
+    height: 0.3rem;
+    /*background: red;*/
+    margin-bottom: 0.28rem;
+    justify-content: space-between;
+}
+.gukepingjia .pingjia .neirong .hang:nth-child(2){
+    width: 100%;
+    height: 0.28rem;
+    /*background: red;*/
+    margin-bottom: 0.25rem;
+}
+.gukepingjia .pingjia .neirong .hang:nth-child(2) span{
+    font-size: 0.25rem;
+}
+.gukepingjia .pingjia .neirong .hang:nth-child(2) i{
+    font-size: 0.3rem;
+}
+.gukepingjia .pingjia .neirong .hang:nth-child(3){
+    width: 100%;
+    height: 0.24rem;
+    /*background: red;*/
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gukepingjia .pingjia .neirong .hang:nth-child(3) i{
+    font-size: 0.4rem;
+}
+.gukepingjia .pingjia .neirong .hang{
+    display: flex;
+}
+.gukepingjia .pingjia .neirong .hang .right{
+    display: flex;
+    flex-direction: row;
+}
+
+.gukepingjia .pingjia .neirong .hang .leftpp img{
+    margin: 0;
+    height: 0.3rem;
+    margin-left: 0.1rem;
+}
+.gukepingjia .pingjia .neirong .hang .leftpp{
+    display: flex;
+}
+.dibu{
+    width: 100%;
+    height: 2.46rem;
+    background: brown;
+
+}
+.dibu .youhui{
+    width: 100%;
+    height: 0.25rem;
+    background: #d0f525;
+    font-size:0.25rem;
+    text-align: center;
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}
+.dibu .yixuanshangpin{
+    width: 100%;
+    height: 0.42rem;
+    background: #b5b5b5;
+    display:flex;
+    justify-content: space-between;
+    font-size: 0.35rem;
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}
+.dibu .yixuanshangpin i{
+    font-size: 0.35rem;
+}
+.dibu .kekoukele{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 0.83rem;
+    background: #faf8f8;
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}
+.dibu .lijizhifu{
+    width: 100%;
+    height: 0.98rem;
+    background: black;
+    position: relative;
+}
+.dibu .jiajian{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.dibu .jiajian img{
+    width: 0.21rem;
+    height: 0.21rem;
+    display:flex;
+    margin-right: 0.1rem;
+}
+.dibu .jiajian span{
+    font-size: 0.22rem;
+    margin-right: 0.1rem;
+}
+.kekoukele span{
+    display: flex;
+    font-size: 0.22rem;
+    align-items: center;
+}
+.dibu .lijizhifu .leftinfo .gouwuche{
+    width: 1.02rem;
+    height: 1.02rem;
+    border-radius: 50%;
+    background:red;
+    margin-left: 0.5rem;
+    float: left;
+    position: absolute;
+    top: -0.2rem;
+    /*position: relative;*/
+}
+.dibu .lijizhifu .leftinfo .gouwuche .xiaofen{
+    width: 0.25rem;
+    height: 0.25rem;
+    background: #f29b76;
+    border-radius: 50%;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.25rem;
+    position: absolute;
+    left: 0.8rem;
+}
+.dibu .lijizhifu .leftinfo .gouwuche i{
+    font-size: 0.6rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.25rem;
+}
+.dibu .lijizhifu .leftinfo span{
+    font-size: 0.21rem;
+    color: white;
+    display: block;
+    float: left;
+    line-height:0.98rem;
+    margin-left: 1.8rem;
+}
+.dibu .lijizhifu .rightbox{
+    width: 2.04rem;
+    height: 100%;
+    background: #d2d2d2;
+    float: right;
+    font-size: 0.23rem;
+    text-align: center;
+    line-height: 0.98rem;
+}
